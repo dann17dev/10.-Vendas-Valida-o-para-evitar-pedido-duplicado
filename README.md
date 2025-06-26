@@ -19,7 +19,7 @@ Se identificado um possível pedido duplicado, o sistema exibe um alerta e bloqu
 
 ### 🧾 Código exemplo (ADVPL)
 ```advpl
-User Function ValidaDuplicidade()
+User Function ValidDup()
     Local cCliente := SC5->C5_CLIENTE
     Local dHoje := dDataBase
     Local lDuplicado := .F.
